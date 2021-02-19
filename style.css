@@ -49,11 +49,18 @@ body h2
     height: 300px;
     display: flex;
 
-    /* Flex Direction*/
+    /* FLEX DIRECTION*/
+
     flex-direction: row;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse;
     flex-direction: column;
-    flex-direction: column-reverse;
+    flex-direction: column-reverse; */
+
+
+    /* FLEX_WRAP */
+
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
 } 
 
 #Children .flexbox-container
