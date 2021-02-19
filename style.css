@@ -76,6 +76,14 @@ body h2
     justify-content: space-around;
 
     justify-content: space-evenly;
+
+    /* ALIGN_ITEMS */
+
+    align-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
 } 
 
 #Children .flexbox-container
