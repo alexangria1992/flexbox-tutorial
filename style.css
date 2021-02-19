@@ -105,6 +105,7 @@ body h2
     box-shadow: 0 0 10px 2px;
     height: 300px;
     display: flex;
+    flex-wrap: wrap;
 } 
 
 #Children .flexbox-container .flexbox_item 
@@ -116,7 +117,7 @@ body h2
     text-shadow: 1px 1px 1px #333;
 }
 
-#Children .flexbox-container .flexbox_item:first-child
+/* #Children .flexbox-container .flexbox_item:first-child
 {
     order: 2;
 }
@@ -144,11 +145,22 @@ body h2
 #Children .flexbox-container .flexbox_item:nth-child(2)
 {
     order: 4;
+} */
+
+/* #Children .flexbox-container .flexbox_item:nth-child(1)
+{
+    flex-grow: 4;
+   
+} */
+
+#Children .flexbox-container .flexbox_item:
+{
+    width: 300px;
 }
 
-#Children .flexbox-container .flexbox_item:nth-child(2)
+#Children .flexbox-container .flexbox_item:first-child
 {
-    order: 1;
+    flex-shrink: 1;
 }
 
 
