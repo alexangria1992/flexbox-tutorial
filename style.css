@@ -84,6 +84,19 @@ body h2
     align-items: flex-end;
     align-items: center;
     align-items: baseline;
+
+
+    /* ALIGN CONTENT */
+
+    align-content: normal;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: flex-center;
+    align-content: space-between;
+    align-content: space-around;
+    align-content:space-evenly;
+    align-content: stretch;
+
 } 
 
 #Children .flexbox-container
