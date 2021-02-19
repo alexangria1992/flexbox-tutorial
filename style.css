@@ -59,8 +59,23 @@ body h2
 
     /* FLEX_WRAP */
 
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     flex-wrap: wrap;
+
+    /* JUSTIFY CONTENT */
+
+    height: 350px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: start;
+    justify-content: flex-end;
+    justify-content: flex-end;
+    justify-content: right;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+
+    justify-content: space-evenly;
 } 
 
 #Children .flexbox-container
