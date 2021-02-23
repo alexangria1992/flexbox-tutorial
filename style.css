@@ -231,6 +231,8 @@ h2
     color: blue;
 }
 
+/* FOOTER */
+
 #Footer 
 {
     height: 100px;
@@ -239,4 +241,82 @@ h2
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/* RESPONSIVENESS */
+
+@media (max-width: 900px)
+{
+    #Header h1
+    {
+        font-size: 6rem;
+    }
+    h3
+    {
+        font-size: 4rem;
+    }
+
+
+    #Nav
+    {
+        font-size: 1.5rem;
+    }
+
+    #About .about-container
+    {
+        flex-direction: column;
+        height: -100px;
+    }
+
+    #About  .about-img 
+    {
+        min-height: 270px;
+    }
+
+    #About  .about-description
+    {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Services 
+    {
+        height: 800px;
+
+    }
+
+
+}
+
+@media (max-width: 400px)
+{
+    #Header h1
+    {
+        font-size: 4rem;
+    }
+    h3
+    {
+        font-size: 2.5rem;
+    }
+
+    #Nav
+    {
+        height: 15vh;
+        flex-direction: column;
+    }
+
+    
+    #Nav ul 
+    {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #About .about-img
+    {
+        min-width: 350px;
+    }
 }
