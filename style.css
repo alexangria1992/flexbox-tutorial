@@ -60,6 +60,8 @@
     letter-spacing: 1px;
 }
 
+/* HEADER  */
+
 #Header 
 {
     height: 90vh;
@@ -94,6 +96,8 @@
     text-transform: uppercase;
 }
 
+
+/* ABOUT */
 
 section 
 {
@@ -142,6 +146,8 @@ h2
     padding-left: 2rem;
 }
 
+/* SERVICE */
+
 #Services h2
 {
     color: #fff;
@@ -184,4 +190,43 @@ h2
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+}
+
+/* CONTACT */
+
+#Contact 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contact  .contact-container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Contact .contact 
+{
+    max-width: 300px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+#Contact i 
+{
+    margin-bottom: 1rem;
+}
+
+#Contact i:hover
+{
+    color: blue;
 }
