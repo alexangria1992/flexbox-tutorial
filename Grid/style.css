@@ -163,3 +163,26 @@ h2
     justify-items: stretch; */
 
 }
+
+/* Align Items */
+
+.Grid-container 
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    /* justify-items: start;
+    justify-items: end;
+    justify-items: center;
+    justify-items: stretch; */
+
+}
+
+.Grid-container 
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    align-items: start;
+    align-items: end;
+    align-items: center;
+    align-items: stretch;
+}
