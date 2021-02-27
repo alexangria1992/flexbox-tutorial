@@ -77,7 +77,7 @@ h2
 
 */
 
-.Grid_item:nth-child(1)
+/* .Grid_item:nth-child(1)
 {
     grid-area: nav;
 }
@@ -105,7 +105,7 @@ h2
 .Grid_item:nth-child(6)
 {
     grid-area: footer;
-}
+} */
 
 /* .Grid-container 
 {
@@ -124,7 +124,7 @@ h2
 
 /* Grid Template */
 
-.Grid-container 
+/* .Grid-container 
 {
     display: grid;
     grid-template: 
@@ -134,7 +134,7 @@ h2
     "said section section ." auto
     "footer footer footer footer" 30px
     / auto 50px auto;
-}
+} */
 
 /* Grid Gap */
 
@@ -144,8 +144,22 @@ h2
     grid-row-gap: 20px; */
 
     /* gap: row column; */
-    gap: 20px 10px;
 
-    gap: 15px;
+    /* gap: 20px 10px;
+
+    gap: 15px; */
+
+}
+
+/* Justify Items */
+
+.Grid-container 
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    /* justify-items: start;
+    justify-items: end;
+    justify-items: center;
+    justify-items: stretch; */
 
 }
