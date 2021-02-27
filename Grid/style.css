@@ -189,7 +189,7 @@ h2
 
 /* Justify Content */
 
-.Grid-container
+/* .Grid-container
 {
     display: grid;
     grid-template-columns: repeat(3, 150px);
@@ -200,4 +200,19 @@ h2
     justify-content: space-between;
     justify-content: space-evenly;
 
+} */
+
+/* Align Content */
+
+.Grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 175px);
+    align-content: start;
+    align-content: end;
+    align-content: center;
+    align-content: stretch;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly;
 }
