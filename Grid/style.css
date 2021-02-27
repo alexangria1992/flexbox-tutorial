@@ -177,7 +177,7 @@ h2
 
 }
 
-.Grid-container 
+/* .Grid-container 
 {
     display: grid;
     grid-template-columns: repeat(2, 1fr );
@@ -185,4 +185,19 @@ h2
     align-items: end;
     align-items: center;
     align-items: stretch;
+} */
+
+/* Justify Content */
+
+.Grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    justify-content: start;
+    justify-content: center;
+    justify-content: stretch;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
 }
