@@ -135,3 +135,17 @@ h2
     "footer footer footer footer" 30px
     / auto 50px auto;
 }
+
+/* Grid Gap */
+
+.Grid-container 
+{
+    /* grid-column-gap: 10px; 
+    grid-row-gap: 20px; */
+
+    /* gap: row column; */
+    gap: 20px 10px;
+
+    gap: 15px;
+
+}
