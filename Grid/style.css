@@ -304,3 +304,11 @@ h2
     grid-row-start: 2;
     grid-row-end: 2;
 }
+
+.Grid_item:nth-child(3)
+{
+   grid-column: 2;
+   grid-row: 3;
+   background-color:purple;
+
+}
