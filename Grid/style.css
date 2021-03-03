@@ -325,3 +325,20 @@ h2
     justify-self: stretch;
 }
 
+/*  ALIGN SELF */
+
+.Grid_item:nth-child(3)
+{
+   grid-column-start: 6;
+   grid-column-end: 7;
+   grid-row-start: 3;
+   grid-row-end: 4;
+   background-color:purple;
+   align-self: start;
+   align-self: end;
+   align-self: center;
+   align-self: stretch;
+
+}
+
+/* PLACE SELF */
