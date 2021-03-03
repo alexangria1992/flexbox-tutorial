@@ -342,3 +342,16 @@ h2
 }
 
 /* PLACE SELF */
+
+
+.Grid_item:nth-child(3)
+{
+   grid-column-start: 6;
+   grid-column-end: 7;
+   grid-row-start: 3;
+   grid-row-end: 4;
+   place-self: auto;
+   place-self: center start;
+
+
+}
